@@ -1,0 +1,19 @@
+{
+    "name": "itlized/zurb-foundation",
+    "description": "Zurb Foundation Bundle For Symfony",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Michael Bui",
+            "email": "michael@itlized.com",
+            "homepage": "http://www.itlized.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "Itlized\\Bundle\\ZurbFoundationBundle\\": "" }
+    },
+    "target-dir":  "Itlized/Bundle/ZurbFoundationBundle"
+}
